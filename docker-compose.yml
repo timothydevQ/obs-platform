@@ -125,3 +125,4 @@ services:
 # init
 # prometheus
 # grafana
+# jaeger
