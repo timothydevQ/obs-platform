@@ -184,3 +184,4 @@ Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger 
 <!-- stack -->
 <!-- slo -->
 <!-- design -->
+<!-- prereqs -->
