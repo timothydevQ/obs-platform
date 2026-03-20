@@ -31,3 +31,4 @@ scrape_configs:
       - targets: ["service-mapper:8093"]
     metrics_path: /metrics
 # global
+# scrape collector
