@@ -127,3 +127,4 @@ services:
 # grafana
 # jaeger
 # loki
+# tempo
