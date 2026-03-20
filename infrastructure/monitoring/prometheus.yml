@@ -30,3 +30,4 @@ scrape_configs:
     static_configs:
       - targets: ["service-mapper:8093"]
     metrics_path: /metrics
+# global
