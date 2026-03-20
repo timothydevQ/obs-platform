@@ -38,3 +38,4 @@ go.work.sum
 # k6 results
 k6-results/
 summary.json
+# go
