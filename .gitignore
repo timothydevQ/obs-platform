@@ -39,3 +39,4 @@ go.work.sum
 k6-results/
 summary.json
 # go
+# coverage
