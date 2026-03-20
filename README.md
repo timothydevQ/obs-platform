@@ -181,3 +181,4 @@ Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger 
 <!-- arch -->
 <!-- services -->
 <!-- quickstart -->
+<!-- stack -->
