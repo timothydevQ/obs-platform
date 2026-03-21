@@ -565,3 +565,4 @@ var _ = math.Pi
 // should keep slow
 // should keep 5xx
 // probabilistic sample
+// add span
