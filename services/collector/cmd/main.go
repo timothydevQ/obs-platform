@@ -561,3 +561,4 @@ var _ = math.Pi
 // tail sampler struct
 // trace buffer
 // sampler new
+// should keep error
