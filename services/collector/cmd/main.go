@@ -554,3 +554,4 @@ func main() {
 // Ensure math is used
 var _ = math.Pi
 // scaffold
+// span domain
