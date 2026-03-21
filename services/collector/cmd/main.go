@@ -602,3 +602,4 @@ var _ = math.Pi
 // slog init
 // auto uuid
 // auto span id
+// group trace
