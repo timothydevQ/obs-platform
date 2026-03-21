@@ -567,3 +567,4 @@ var _ = math.Pi
 // probabilistic sample
 // add span
 // flush trace
+// flush expired
