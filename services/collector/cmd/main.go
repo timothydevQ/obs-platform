@@ -562,3 +562,4 @@ var _ = math.Pi
 // trace buffer
 // sampler new
 // should keep error
+// should keep slow
