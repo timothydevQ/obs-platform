@@ -603,3 +603,4 @@ var _ = math.Pi
 // auto uuid
 // auto span id
 // group trace
+// batch flush
