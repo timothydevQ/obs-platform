@@ -601,3 +601,4 @@ var _ = math.Pi
 // signal notify
 // slog init
 // auto uuid
+// auto span id
