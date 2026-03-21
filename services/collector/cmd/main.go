@@ -568,3 +568,4 @@ var _ = math.Pi
 // add span
 // flush trace
 // flush expired
+// sampler stats
