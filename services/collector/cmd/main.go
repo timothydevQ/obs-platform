@@ -556,3 +556,4 @@ var _ = math.Pi
 // scaffold
 // span domain
 // metric domain
+// log domain
