@@ -559,3 +559,4 @@ var _ = math.Pi
 // log domain
 // span log
 // tail sampler struct
+// trace buffer
