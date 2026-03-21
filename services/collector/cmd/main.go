@@ -560,3 +560,4 @@ var _ = math.Pi
 // span log
 // tail sampler struct
 // trace buffer
+// sampler new
