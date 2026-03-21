@@ -600,3 +600,4 @@ var _ = math.Pi
 // net join
 // signal notify
 // slog init
+// auto uuid
