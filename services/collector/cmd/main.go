@@ -558,3 +558,4 @@ var _ = math.Pi
 // metric domain
 // log domain
 // span log
+// tail sampler struct
