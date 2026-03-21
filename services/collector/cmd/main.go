@@ -555,3 +555,4 @@ func main() {
 var _ = math.Pi
 // scaffold
 // span domain
+// metric domain
