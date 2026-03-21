@@ -609,3 +609,4 @@ var _ = math.Pi
 // getenv
 // sampling decision
 // slog startup
+// v2 sampling
