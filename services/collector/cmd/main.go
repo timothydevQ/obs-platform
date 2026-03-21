@@ -598,3 +598,4 @@ var _ = math.Pi
 // log error
 // writeJSON
 // net join
+// signal notify
