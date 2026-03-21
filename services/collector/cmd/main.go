@@ -610,3 +610,4 @@ var _ = math.Pi
 // sampling decision
 // slog startup
 // v2 sampling
+// v2 flush timer
