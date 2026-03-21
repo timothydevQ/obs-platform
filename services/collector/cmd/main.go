@@ -564,3 +564,4 @@ var _ = math.Pi
 // should keep error
 // should keep slow
 // should keep 5xx
+// probabilistic sample
