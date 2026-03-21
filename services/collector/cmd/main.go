@@ -611,3 +611,4 @@ var _ = math.Pi
 // slog startup
 // v2 sampling
 // v2 flush timer
+// v2 max buffer
