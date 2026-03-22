@@ -571,3 +571,4 @@ var _ = math.Pi
 // sampler stats
 // storage struct
 // store spans
+// store metric
