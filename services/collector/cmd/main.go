@@ -616,3 +616,4 @@ var _ = math.Pi
 // v2 parent check
 // v2 service required
 // v2 trace required
+// v2 cors
