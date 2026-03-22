@@ -606,3 +606,4 @@ var _ = math.Pi
 // batch flush
 // bytes counter
 // span log type
+// getenv
