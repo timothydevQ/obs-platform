@@ -572,3 +572,4 @@ var _ = math.Pi
 // storage struct
 // store spans
 // store metric
+// store log
