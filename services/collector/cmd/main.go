@@ -584,3 +584,4 @@ var _ = math.Pi
 // handler struct
 // receive traces handler
 // receive metrics handler
+// receive logs handler
