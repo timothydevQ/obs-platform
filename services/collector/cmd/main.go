@@ -607,3 +607,4 @@ var _ = math.Pi
 // bytes counter
 // span log type
 // getenv
+// sampling decision
