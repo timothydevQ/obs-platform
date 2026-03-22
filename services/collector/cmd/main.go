@@ -576,3 +576,4 @@ var _ = math.Pi
 // get by trace
 // get recent
 // get metrics
+// get logs by trace
