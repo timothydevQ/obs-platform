@@ -585,3 +585,4 @@ var _ = math.Pi
 // receive traces handler
 // receive metrics handler
 // receive logs handler
+// deployment handler
