@@ -586,3 +586,4 @@ var _ = math.Pi
 // receive metrics handler
 // receive logs handler
 // deployment handler
+// stats handler
