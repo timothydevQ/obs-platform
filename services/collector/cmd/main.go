@@ -569,3 +569,4 @@ var _ = math.Pi
 // flush trace
 // flush expired
 // sampler stats
+// storage struct
