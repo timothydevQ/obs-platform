@@ -573,3 +573,4 @@ var _ = math.Pi
 // store spans
 // store metric
 // store log
+// get by trace
