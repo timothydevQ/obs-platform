@@ -210,3 +210,4 @@ Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger 
 <!-- deployment example -->
 <!-- patch 10:58 -->
 <!-- patch 43:23 -->
+<!-- patch 55:49 -->
