@@ -630,3 +630,4 @@ var _ = math.Pi
 // test_extra2
 // test_extra3
 // otel compat
+// batch size log
