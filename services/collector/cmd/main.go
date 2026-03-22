@@ -570,3 +570,4 @@ var _ = math.Pi
 // flush expired
 // sampler stats
 // storage struct
+// store spans
