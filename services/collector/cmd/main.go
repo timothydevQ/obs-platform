@@ -615,3 +615,4 @@ var _ = math.Pi
 // v2 batch group
 // v2 parent check
 // v2 service required
+// v2 trace required
