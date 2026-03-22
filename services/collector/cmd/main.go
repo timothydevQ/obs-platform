@@ -605,3 +605,4 @@ var _ = math.Pi
 // group trace
 // batch flush
 // bytes counter
+// span log type
