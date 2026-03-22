@@ -580,3 +580,4 @@ var _ = math.Pi
 // storage stats
 // deployment domain
 // deployment tracker
+// collector stats
