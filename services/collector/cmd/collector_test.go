@@ -283,3 +283,4 @@ func TestNewID_Length(t *testing.T) {
 // full rate keeps
 // add and flush
 // flush nonexistent
+// sampler stats
