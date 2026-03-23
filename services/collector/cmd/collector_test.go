@@ -288,3 +288,4 @@ func TestNewID_Length(t *testing.T) {
 // store spans
 // store filters
 // recent spans
+// recent less than limit
