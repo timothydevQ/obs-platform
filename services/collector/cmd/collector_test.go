@@ -276,3 +276,4 @@ func TestNewID_Length(t *testing.T) {
 		t.Errorf("expected 16 char ID, got %d", len(id))
 	}
 }
+// always keep error
