@@ -284,3 +284,4 @@ func TestNewID_Length(t *testing.T) {
 // add and flush
 // flush nonexistent
 // sampler stats
+// error beats zero rate
