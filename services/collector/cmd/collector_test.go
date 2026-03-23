@@ -303,3 +303,4 @@ func TestNewID_Length(t *testing.T) {
 // sampler multi span
 // concurrent
 // flush returns spans
+// log timestamp auto
