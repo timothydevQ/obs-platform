@@ -591,3 +591,4 @@ var _ = math.Pi
 // metrics endpoint
 // newid
 // method handler
+// routes
