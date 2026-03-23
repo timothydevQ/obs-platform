@@ -608,3 +608,4 @@ var _ = math.Pi
 // span log type
 // getenv
 // sampling decision
+// slog startup
