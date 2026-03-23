@@ -300,3 +300,4 @@ func TestNewID_Length(t *testing.T) {
 // deployment empty
 // newid unique
 // newid len
+// sampler multi span
