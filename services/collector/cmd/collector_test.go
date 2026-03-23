@@ -282,3 +282,4 @@ func TestNewID_Length(t *testing.T) {
 // zero rate drops
 // full rate keeps
 // add and flush
+// flush nonexistent
