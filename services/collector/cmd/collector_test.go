@@ -280,3 +280,4 @@ func TestNewID_Length(t *testing.T) {
 // always keep slow
 // always keep 5xx
 // zero rate drops
+// full rate keeps
