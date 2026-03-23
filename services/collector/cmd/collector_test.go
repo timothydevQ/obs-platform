@@ -286,3 +286,4 @@ func TestNewID_Length(t *testing.T) {
 // sampler stats
 // error beats zero rate
 // store spans
+// store filters
