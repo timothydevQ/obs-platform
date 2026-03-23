@@ -285,3 +285,4 @@ func TestNewID_Length(t *testing.T) {
 // flush nonexistent
 // sampler stats
 // error beats zero rate
+// store spans
