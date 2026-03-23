@@ -589,3 +589,4 @@ var _ = math.Pi
 // stats handler
 // health handlers
 // metrics endpoint
+// newid
