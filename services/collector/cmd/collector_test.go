@@ -301,3 +301,4 @@ func TestNewID_Length(t *testing.T) {
 // newid unique
 // newid len
 // sampler multi span
+// concurrent
