@@ -302,3 +302,4 @@ func TestNewID_Length(t *testing.T) {
 // newid len
 // sampler multi span
 // concurrent
+// flush returns spans
