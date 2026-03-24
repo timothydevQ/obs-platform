@@ -318,3 +318,4 @@ func TestNewID_Length(t *testing.T) {
 // newid hex
 // v2 batch group
 // v2 concurrent flush
+// v2 multiple traces
