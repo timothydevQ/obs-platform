@@ -317,3 +317,4 @@ func TestNewID_Length(t *testing.T) {
 // storage log count
 // newid hex
 // v2 batch group
+// v2 concurrent flush
