@@ -320,3 +320,4 @@ func TestNewID_Length(t *testing.T) {
 // v2 concurrent flush
 // v2 multiple traces
 // v2 storage empty
+// v2 get recent empty
