@@ -294,3 +294,4 @@ func TestNewID_Length(t *testing.T) {
 // metrics filter
 // logs by trace
 // logs filter
+// storage stats
