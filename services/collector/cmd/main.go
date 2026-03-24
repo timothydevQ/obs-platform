@@ -553,3 +553,44 @@ func main() {
 
 // Ensure math is used
 var _ = math.Pi
+// scaffold
+// span domain
+// metric domain
+// log domain
+// span log
+// tail sampler struct
+// trace buffer
+// sampler new
+// should keep error
+// should keep slow
+// should keep 5xx
+// probabilistic sample
+// add span
+// flush trace
+// flush expired
+// sampler stats
+// storage struct
+// store spans
+// store metric
+// store log
+// get by trace
+// get recent
+// get metrics
+// get logs by trace
+// storage stats
+// deployment domain
+// deployment tracker
+// collector stats
+// handler struct
+// receive traces handler
+// receive metrics handler
+// receive logs handler
+// deployment handler
+// stats handler
+// health handlers
+// metrics endpoint
+// newid
+// method handler
+// routes
+// server
+// graceful shutdown

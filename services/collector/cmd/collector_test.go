@@ -276,3 +276,27 @@ func TestNewID_Length(t *testing.T) {
 		t.Errorf("expected 16 char ID, got %d", len(id))
 	}
 }
+// always keep error
+// always keep slow
+// always keep 5xx
+// zero rate drops
+// full rate keeps
+// add and flush
+// flush nonexistent
+// sampler stats
+// error beats zero rate
+// store spans
+// store filters
+// recent spans
+// recent less than limit
+// max eviction
+// metrics store
+// metrics filter
+// logs by trace
+// logs filter
+// storage stats
+// deployment record
+// deployment limit
+// deployment empty
+// newid unique
+// newid len
