@@ -289,3 +289,4 @@ func TestNewID_Length(t *testing.T) {
 // store filters
 // recent spans
 // recent less than limit
+// max eviction
