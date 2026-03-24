@@ -292,3 +292,4 @@ func TestNewID_Length(t *testing.T) {
 // max eviction
 // metrics store
 // metrics filter
+// logs by trace
