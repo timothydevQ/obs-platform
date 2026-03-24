@@ -306,3 +306,4 @@ func TestNewID_Length(t *testing.T) {
 // log timestamp auto
 // metrics timestamp auto
 // stats snapshot
+// storage concurrent
