@@ -316,3 +316,4 @@ func TestNewID_Length(t *testing.T) {
 // deployment set time
 // storage log count
 // newid hex
+// v2 batch group
