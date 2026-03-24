@@ -299,3 +299,4 @@ func TestNewID_Length(t *testing.T) {
 // deployment limit
 // deployment empty
 // newid unique
+// newid len
