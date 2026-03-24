@@ -315,3 +315,4 @@ func TestNewID_Length(t *testing.T) {
 // sampler 400
 // deployment set time
 // storage log count
+// newid hex
