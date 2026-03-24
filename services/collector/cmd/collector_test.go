@@ -304,3 +304,4 @@ func TestNewID_Length(t *testing.T) {
 // concurrent
 // flush returns spans
 // log timestamp auto
+// metrics timestamp auto
