@@ -312,3 +312,4 @@ func TestNewID_Length(t *testing.T) {
 // sampler at 500
 // sampler 5xx
 // sampler 599
+// sampler 400
