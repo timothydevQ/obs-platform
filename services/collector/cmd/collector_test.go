@@ -314,3 +314,4 @@ func TestNewID_Length(t *testing.T) {
 // sampler 599
 // sampler 400
 // deployment set time
+// storage log count
