@@ -307,3 +307,4 @@ func TestNewID_Length(t *testing.T) {
 // metrics timestamp auto
 // stats snapshot
 // storage concurrent
+// sampler threshold
