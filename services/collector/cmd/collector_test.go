@@ -310,3 +310,4 @@ func TestNewID_Length(t *testing.T) {
 // sampler threshold
 // sampler at 499
 // sampler at 500
+// sampler 5xx
