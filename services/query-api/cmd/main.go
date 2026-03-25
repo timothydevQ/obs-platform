@@ -677,3 +677,4 @@ func main() {
 // store struct
 // add spans
 // add metrics
+// add logs
