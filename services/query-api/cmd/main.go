@@ -678,3 +678,4 @@ func main() {
 // add spans
 // add metrics
 // add logs
+// add deployment
