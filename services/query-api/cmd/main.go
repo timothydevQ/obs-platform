@@ -672,3 +672,4 @@ func main() {
 // log entry
 // deployment domain
 // service edge
+// service node
