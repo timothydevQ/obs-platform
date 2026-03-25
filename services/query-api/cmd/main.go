@@ -680,3 +680,4 @@ func main() {
 // add logs
 // add deployment
 // store stats
+// query svc
