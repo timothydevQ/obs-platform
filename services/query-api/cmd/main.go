@@ -681,3 +681,4 @@ func main() {
 // add deployment
 // store stats
 // query svc
+// trace view
