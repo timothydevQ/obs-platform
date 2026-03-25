@@ -674,3 +674,4 @@ func main() {
 // service edge
 // service node
 // service map type
+// store struct
