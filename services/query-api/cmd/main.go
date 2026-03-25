@@ -679,3 +679,4 @@ func main() {
 // add metrics
 // add logs
 // add deployment
+// store stats
