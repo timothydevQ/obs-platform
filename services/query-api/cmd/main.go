@@ -683,3 +683,4 @@ func main() {
 // query svc
 // trace view
 // get trace
+// trace has error
