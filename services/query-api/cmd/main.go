@@ -673,3 +673,4 @@ func main() {
 // deployment domain
 // service edge
 // service node
+// service map type
