@@ -667,3 +667,4 @@ func main() {
 	srv.Shutdown(ctx)
 }
 // scaffold
+// span domain
