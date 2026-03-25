@@ -742,3 +742,4 @@ func main() {
 // test_extra6
 // test_extra7
 // sorted services
+// trace count
