@@ -671,3 +671,4 @@ func main() {
 // metric point
 // log entry
 // deployment domain
+// service edge
