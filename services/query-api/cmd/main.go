@@ -676,3 +676,4 @@ func main() {
 // service map type
 // store struct
 // add spans
+// add metrics
