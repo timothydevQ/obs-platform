@@ -682,3 +682,4 @@ func main() {
 // store stats
 // query svc
 // trace view
+// get trace
