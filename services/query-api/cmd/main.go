@@ -691,3 +691,4 @@ func main() {
 // filter errors
 // filter duration
 // search sort
+// search limit
