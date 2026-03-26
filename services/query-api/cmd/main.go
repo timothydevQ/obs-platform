@@ -694,3 +694,4 @@ func main() {
 // search limit
 // latency stats
 // percentile func
+// get latency
