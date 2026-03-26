@@ -729,3 +729,4 @@ func main() {
 // v2 service list
 // v2 error count
 // v2 trace count
+// v2 window param
