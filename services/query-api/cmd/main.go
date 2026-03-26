@@ -688,3 +688,4 @@ func main() {
 // search result
 // search traces
 // filter service
+// filter errors
