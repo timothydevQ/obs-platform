@@ -686,3 +686,4 @@ func main() {
 // trace has error
 // trace services
 // search result
+// search traces
