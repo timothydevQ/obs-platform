@@ -689,3 +689,4 @@ func main() {
 // search traces
 // filter service
 // filter errors
+// filter duration
