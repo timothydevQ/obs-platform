@@ -695,3 +695,4 @@ func main() {
 // latency stats
 // percentile func
 // get latency
+// latency window
