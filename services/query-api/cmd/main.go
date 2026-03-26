@@ -726,3 +726,4 @@ func main() {
 // v2 cache
 // v2 cache ttl
 // v2 operation
+// v2 service list
