@@ -703,3 +703,4 @@ func main() {
 // anomaly detection
 // trace handler
 // search handler
+// latency handler
