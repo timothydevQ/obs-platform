@@ -721,3 +721,4 @@ func main() {
 // pre window
 // post window
 // error rate post
+// 20pct threshold
