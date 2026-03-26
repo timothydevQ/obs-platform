@@ -698,3 +698,4 @@ func main() {
 // latency window
 // build service map
 // edge detection
+// health score
