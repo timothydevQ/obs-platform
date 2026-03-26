@@ -702,3 +702,4 @@ func main() {
 // deployment correlation
 // anomaly detection
 // trace handler
+// search handler
