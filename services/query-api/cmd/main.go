@@ -692,3 +692,4 @@ func main() {
 // filter duration
 // search sort
 // search limit
+// latency stats
