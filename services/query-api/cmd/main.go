@@ -728,3 +728,4 @@ func main() {
 // v2 operation
 // v2 service list
 // v2 error count
+// v2 trace count
