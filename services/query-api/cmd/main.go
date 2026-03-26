@@ -725,3 +725,4 @@ func main() {
 // slog startup
 // v2 cache
 // v2 cache ttl
+// v2 operation
