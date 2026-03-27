@@ -308,3 +308,4 @@ func TestStore_Stats(t *testing.T) {
 // get trace found
 // get trace not found
 // trace logs
+// trace error flag
