@@ -306,3 +306,4 @@ func TestStore_Stats(t *testing.T) {
 // percentile p50
 // percentile p99
 // get trace found
+// get trace not found
