@@ -705,3 +705,4 @@ func main() {
 // search handler
 // latency handler
 // service map handler
+// ingest handler
