@@ -311,3 +311,4 @@ func TestStore_Stats(t *testing.T) {
 // trace error flag
 // trace services dedup
 // search all
+// search service
