@@ -303,3 +303,4 @@ func TestStore_Stats(t *testing.T) {
 }
 // percentile empty
 // percentile single
+// percentile p50
