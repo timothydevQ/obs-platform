@@ -312,3 +312,4 @@ func TestStore_Stats(t *testing.T) {
 // trace services dedup
 // search all
 // search service
+// search duration
