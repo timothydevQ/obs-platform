@@ -706,3 +706,4 @@ func main() {
 // latency handler
 // service map handler
 // ingest handler
+// health handler
