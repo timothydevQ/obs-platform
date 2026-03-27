@@ -313,3 +313,4 @@ func TestStore_Stats(t *testing.T) {
 // search all
 // search service
 // search duration
+// search errors
