@@ -704,3 +704,4 @@ func main() {
 // trace handler
 // search handler
 // latency handler
+// service map handler
