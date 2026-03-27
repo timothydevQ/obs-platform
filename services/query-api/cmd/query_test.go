@@ -302,3 +302,4 @@ func TestStore_Stats(t *testing.T) {
 	if stats["logs"] != 1 { t.Error("expected 1 log") }
 }
 // percentile empty
+// percentile single
