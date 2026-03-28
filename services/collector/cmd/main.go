@@ -626,3 +626,4 @@ var _ = math.Pi
 // extra4
 // extra5
 // test_extra0
+// test_extra1
