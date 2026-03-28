@@ -326,3 +326,4 @@ func TestStore_Stats(t *testing.T) {
 // store stats
 // store max span
 // store max metric
+// latency all services
