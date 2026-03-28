@@ -334,3 +334,4 @@ func TestStore_Stats(t *testing.T) {
 // search empty
 // latency by service
 // latency all
+// service map edges multi
