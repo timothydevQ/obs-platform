@@ -666,3 +666,46 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// scaffold
+// span domain
+// metric point
+// log entry
+// deployment domain
+// service edge
+// service node
+// service map type
+// store struct
+// add spans
+// add metrics
+// add logs
+// add deployment
+// store stats
+// query svc
+// trace view
+// get trace
+// trace has error
+// trace services
+// search result
+// search traces
+// filter service
+// filter errors
+// filter duration
+// search sort
+// search limit
+// latency stats
+// percentile func
+// get latency
+// latency window
+// build service map
+// edge detection
+// health score
+// deployment correlation
+// anomaly detection
+// trace handler
+// search handler
+// latency handler
+// service map handler
+// ingest handler
+// health handler
+// routes
+// server
