@@ -323,3 +323,4 @@ func TestStore_Stats(t *testing.T) {
 // service map edges
 // health score
 // deployment no anomaly
+// store stats
