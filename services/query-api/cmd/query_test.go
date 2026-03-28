@@ -332,3 +332,4 @@ func TestStore_Stats(t *testing.T) {
 // trace duration
 // trace no logs
 // search empty
+// latency by service
