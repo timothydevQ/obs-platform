@@ -321,3 +321,4 @@ func TestStore_Stats(t *testing.T) {
 // service map empty
 // service map single
 // service map edges
+// health score
