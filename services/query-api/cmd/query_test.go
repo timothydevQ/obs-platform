@@ -317,3 +317,4 @@ func TestStore_Stats(t *testing.T) {
 // search limit
 // latency empty
 // latency root only
+// latency p99
