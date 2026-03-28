@@ -341,3 +341,4 @@ func TestStore_Stats(t *testing.T) {
 // v2 service filter
 // v2 multiple services
 // v2 trace ids
+// v2 nil check
