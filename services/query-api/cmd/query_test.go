@@ -320,3 +320,4 @@ func TestStore_Stats(t *testing.T) {
 // latency p99
 // service map empty
 // service map single
+// service map edges
