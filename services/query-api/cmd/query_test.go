@@ -329,3 +329,4 @@ func TestStore_Stats(t *testing.T) {
 // latency all services
 // search sorted
 // ingest spans
+// trace duration
