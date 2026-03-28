@@ -337,3 +337,4 @@ func TestStore_Stats(t *testing.T) {
 // service map edges multi
 // store add metrics
 // store add logs
+// store add deployment
