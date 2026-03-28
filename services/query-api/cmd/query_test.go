@@ -344,3 +344,4 @@ func TestStore_Stats(t *testing.T) {
 // v2 nil check
 // v2 empty search
 // search sorted verify
+// trace multi log
