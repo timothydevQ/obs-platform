@@ -330,3 +330,4 @@ func TestStore_Stats(t *testing.T) {
 // search sorted
 // ingest spans
 // trace duration
+// trace no logs
