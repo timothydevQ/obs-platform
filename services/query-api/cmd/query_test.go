@@ -335,3 +335,4 @@ func TestStore_Stats(t *testing.T) {
 // latency by service
 // latency all
 // service map edges multi
+// store add metrics
