@@ -324,3 +324,4 @@ func TestStore_Stats(t *testing.T) {
 // health score
 // deployment no anomaly
 // store stats
+// store max span
