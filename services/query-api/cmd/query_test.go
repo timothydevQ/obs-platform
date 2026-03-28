@@ -325,3 +325,4 @@ func TestStore_Stats(t *testing.T) {
 // deployment no anomaly
 // store stats
 // store max span
+// store max metric
