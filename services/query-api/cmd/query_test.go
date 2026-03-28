@@ -338,3 +338,4 @@ func TestStore_Stats(t *testing.T) {
 // store add metrics
 // store add logs
 // store add deployment
+// v2 service filter
