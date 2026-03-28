@@ -319,3 +319,4 @@ func TestStore_Stats(t *testing.T) {
 // latency root only
 // latency p99
 // service map empty
+// service map single
