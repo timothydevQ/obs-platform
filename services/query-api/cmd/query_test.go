@@ -316,3 +316,4 @@ func TestStore_Stats(t *testing.T) {
 // search errors
 // search limit
 // latency empty
+// latency root only
