@@ -471,3 +471,4 @@ func main() {
 // sli point
 // slo store
 // add slo
+// get slo
