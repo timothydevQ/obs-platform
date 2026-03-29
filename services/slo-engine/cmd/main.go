@@ -480,3 +480,4 @@ func main() {
 // window duration
 // compliance error rate
 // compliance latency
+// compliance throughput
