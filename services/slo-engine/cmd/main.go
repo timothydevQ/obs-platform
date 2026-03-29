@@ -476,3 +476,4 @@ func main() {
 // record point
 // get points
 // add alert
+// get alerts
