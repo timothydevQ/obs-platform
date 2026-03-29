@@ -466,3 +466,4 @@ func main() {
 }
 // slo type
 // slo struct
+// slo status
