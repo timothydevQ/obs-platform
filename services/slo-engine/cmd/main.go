@@ -479,3 +479,4 @@ func main() {
 // get alerts
 // window duration
 // compliance error rate
+// compliance latency
