@@ -472,3 +472,4 @@ func main() {
 // slo store
 // add slo
 // get slo
+// list slos
