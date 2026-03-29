@@ -465,3 +465,4 @@ func main() {
 	srv.Shutdown(ctx)
 }
 // slo type
+// slo struct
