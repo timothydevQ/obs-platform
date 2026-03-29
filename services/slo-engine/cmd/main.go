@@ -477,3 +477,4 @@ func main() {
 // get points
 // add alert
 // get alerts
+// window duration
