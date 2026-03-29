@@ -481,3 +481,4 @@ func main() {
 // compliance error rate
 // compliance latency
 // compliance throughput
+// burn rate calc
