@@ -474,3 +474,4 @@ func main() {
 // get slo
 // list slos
 // record point
+// get points
