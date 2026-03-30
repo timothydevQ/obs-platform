@@ -495,3 +495,4 @@ func main() {
 // metrics endpoint
 // health handlers
 // routes
+// server
