@@ -489,3 +489,4 @@ func main() {
 // create slo handler
 // list slos handler
 // status handler
+// all statuses
