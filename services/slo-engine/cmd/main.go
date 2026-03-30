@@ -492,3 +492,4 @@ func main() {
 // all statuses
 // sli handler
 // alerts handler
+// metrics endpoint
