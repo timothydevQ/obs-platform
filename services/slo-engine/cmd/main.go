@@ -528,3 +528,4 @@ func main() {
 // test_extra11
 // slo name
 // status severity
+// point service
