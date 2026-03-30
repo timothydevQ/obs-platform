@@ -511,3 +511,4 @@ func main() {
 // v2 window map
 // v2 multi window eval
 // v2 slo update
+// v2 slo delete
