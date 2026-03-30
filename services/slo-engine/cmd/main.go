@@ -488,3 +488,4 @@ func main() {
 // error budget
 // create slo handler
 // list slos handler
+// status handler
