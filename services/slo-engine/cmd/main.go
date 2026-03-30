@@ -507,3 +507,4 @@ func main() {
 // no data assume
 // alert log
 // throughput check
+// slog startup
