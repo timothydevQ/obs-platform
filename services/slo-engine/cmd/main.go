@@ -490,3 +490,4 @@ func main() {
 // list slos handler
 // status handler
 // all statuses
+// sli handler
