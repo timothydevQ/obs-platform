@@ -513,3 +513,4 @@ func main() {
 // v2 slo update
 // v2 slo delete
 // v2 filter tenant
+// v2 alert limit
