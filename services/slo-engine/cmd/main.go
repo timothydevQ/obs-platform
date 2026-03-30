@@ -504,3 +504,4 @@ func main() {
 // getenv
 // budget floor
 // budget ceil
+// no data assume
