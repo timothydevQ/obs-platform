@@ -491,3 +491,4 @@ func main() {
 // status handler
 // all statuses
 // sli handler
+// alerts handler
