@@ -493,3 +493,4 @@ func main() {
 // sli handler
 // alerts handler
 // metrics endpoint
+// health handlers
