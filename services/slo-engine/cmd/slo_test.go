@@ -260,3 +260,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // burn no burn
 // burn at target
 // burn high
+// burn zero allowed
