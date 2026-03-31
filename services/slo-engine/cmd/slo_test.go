@@ -254,3 +254,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 		t.Errorf("expected max 10000 points, got %d", len(store.points["slo1"]))
 	}
 }
+// window 1h
