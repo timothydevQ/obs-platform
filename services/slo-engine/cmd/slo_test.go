@@ -267,3 +267,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // store record points
 // store filter old
 // store alerts
+// perfect compliance
