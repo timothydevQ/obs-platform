@@ -270,3 +270,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // perfect compliance
 // no data
 // breached
+// error budget
