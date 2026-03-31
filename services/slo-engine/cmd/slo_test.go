@@ -269,3 +269,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // store alerts
 // perfect compliance
 // no data
+// breached
