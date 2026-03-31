@@ -271,3 +271,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // no data
 // breached
 // error budget
+// disabled
