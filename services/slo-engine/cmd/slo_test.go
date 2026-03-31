@@ -264,3 +264,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // store add get
 // store not found
 // store list
+// store record points
