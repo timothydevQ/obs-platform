@@ -257,3 +257,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // window 1h
 // window 7d
 // window default
+// burn no burn
