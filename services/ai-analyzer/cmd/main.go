@@ -540,3 +540,4 @@ var _ = math.Pi // ensure math is used
 // root cause hint
 // metric window
 // window stats
+// window zscore
