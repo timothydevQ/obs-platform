@@ -285,3 +285,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // zero total
 // partial compliance
 // multiple alerts
+// v2 burn 14x
