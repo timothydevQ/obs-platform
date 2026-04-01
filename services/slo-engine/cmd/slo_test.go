@@ -273,3 +273,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // error budget
 // disabled
 // latency compliance
+// burn fires
