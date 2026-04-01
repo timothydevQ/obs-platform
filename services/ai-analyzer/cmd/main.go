@@ -542,3 +542,4 @@ var _ = math.Pi // ensure math is used
 // window stats
 // window zscore
 // zero stddev guard
+// window max size
