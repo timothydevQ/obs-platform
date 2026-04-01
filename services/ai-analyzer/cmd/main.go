@@ -545,3 +545,4 @@ var _ = math.Pi // ensure math is used
 // window max size
 // heuristic analyzer
 // get window
+// record metric
