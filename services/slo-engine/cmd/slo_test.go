@@ -290,3 +290,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // v2 budget floor
 // v2 empty list
 // v2 point count
+// compliance throughput
