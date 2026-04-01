@@ -287,3 +287,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // multiple alerts
 // v2 burn 14x
 // v2 burn 6x
+// v2 budget floor
