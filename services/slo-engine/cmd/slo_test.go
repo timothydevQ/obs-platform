@@ -254,3 +254,24 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 		t.Errorf("expected max 10000 points, got %d", len(store.points["slo1"]))
 	}
 }
+// window 1h
+// window 7d
+// window default
+// burn no burn
+// burn at target
+// burn high
+// burn zero allowed
+// store add get
+// store not found
+// store list
+// store record points
+// store filter old
+// store alerts
+// perfect compliance
+// no data
+// breached
+// error budget
+// disabled
+// latency compliance
+// burn fires
+// max points

@@ -464,3 +464,35 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// slo type
+// slo struct
+// slo status
+// burn rate alert
+// sli point
+// slo store
+// add slo
+// get slo
+// list slos
+// record point
+// get points
+// add alert
+// get alerts
+// window duration
+// compliance error rate
+// compliance latency
+// compliance throughput
+// burn rate calc
+// evaluate slo
+// page alert
+// ticket alert
+// error budget
+// create slo handler
+// list slos handler
+// status handler
+// all statuses
+// sli handler
+// alerts handler
+// metrics endpoint
+// health handlers
+// routes
+// server
