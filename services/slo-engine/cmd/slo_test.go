@@ -276,3 +276,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // burn fires
 // max points
 // store enabled
+// store timestamp
