@@ -277,3 +277,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // max points
 // store enabled
 // store timestamp
+// get alerts limit
