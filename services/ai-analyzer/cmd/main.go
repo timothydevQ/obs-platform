@@ -535,3 +535,4 @@ func main() {
 var _ = math.Pi // ensure math is used
 // anthropic types
 // anthropic response
+// anomaly types
