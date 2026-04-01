@@ -541,3 +541,4 @@ var _ = math.Pi // ensure math is used
 // metric window
 // window stats
 // window zscore
+// zero stddev guard
