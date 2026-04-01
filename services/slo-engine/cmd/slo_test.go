@@ -280,3 +280,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // get alerts limit
 // points max
 // window 6h
+// window 30d
