@@ -543,3 +543,4 @@ var _ = math.Pi // ensure math is used
 // window zscore
 // zero stddev guard
 // window max size
+// heuristic analyzer
