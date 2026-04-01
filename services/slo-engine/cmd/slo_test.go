@@ -284,3 +284,4 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 // window 24h
 // zero total
 // partial compliance
+// multiple alerts
