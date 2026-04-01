@@ -538,3 +538,4 @@ var _ = math.Pi // ensure math is used
 // anomaly types
 // anomaly struct
 // root cause hint
+// metric window
