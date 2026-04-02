@@ -547,3 +547,4 @@ var _ = math.Pi // ensure math is used
 // get window
 // record metric
 // detect anomalies
+// severity levels
