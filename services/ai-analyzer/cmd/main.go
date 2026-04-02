@@ -579,3 +579,4 @@ var _ = math.Pi // ensure math is used
 // sort services
 // slog startup
 // v2 batch analyze
+// v2 health score
