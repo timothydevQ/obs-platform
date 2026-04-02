@@ -582,3 +582,4 @@ var _ = math.Pi // ensure math is used
 // v2 health score
 // v2 detection window
 // v2 history clear
+// v2 context fields
