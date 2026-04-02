@@ -580,3 +580,4 @@ var _ = math.Pi // ensure math is used
 // slog startup
 // v2 batch analyze
 // v2 health score
+// v2 detection window
