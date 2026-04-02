@@ -551,3 +551,4 @@ var _ = math.Pi // ensure math is used
 // anomaly type map
 // llm client
 // call claude
+// no key fallback
