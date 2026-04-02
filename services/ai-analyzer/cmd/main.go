@@ -553,3 +553,4 @@ var _ = math.Pi // ensure math is used
 // call claude
 // no key fallback
 // latency hints
+// error hints
