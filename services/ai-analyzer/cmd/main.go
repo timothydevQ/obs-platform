@@ -578,3 +578,4 @@ var _ = math.Pi // ensure math is used
 // top 3
 // sort services
 // slog startup
+// v2 batch analyze
