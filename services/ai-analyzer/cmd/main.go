@@ -548,3 +548,4 @@ var _ = math.Pi // ensure math is used
 // record metric
 // detect anomalies
 // severity levels
+// anomaly type map
