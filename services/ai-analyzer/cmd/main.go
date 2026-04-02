@@ -583,3 +583,4 @@ var _ = math.Pi // ensure math is used
 // v2 detection window
 // v2 history clear
 // v2 context fields
+// v2 trace ids
