@@ -557,3 +557,4 @@ var _ = math.Pi // ensure math is used
 // db hints
 // throughput hints
 // root cause engine
+// analyze
