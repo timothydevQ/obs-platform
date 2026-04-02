@@ -552,3 +552,4 @@ var _ = math.Pi // ensure math is used
 // llm client
 // call claude
 // no key fallback
+// latency hints
