@@ -555,3 +555,4 @@ var _ = math.Pi // ensure math is used
 // latency hints
 // error hints
 // db hints
+// throughput hints
