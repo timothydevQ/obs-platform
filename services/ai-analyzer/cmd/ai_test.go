@@ -338,3 +338,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // heuristic record
 // no anomaly few
 // latency spike
+// error surge
