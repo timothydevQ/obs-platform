@@ -343,3 +343,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // db slow
 // hint non nil
 // hint error surge
+// hint db
