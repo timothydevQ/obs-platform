@@ -329,3 +329,4 @@ func TestGetEnv_Missing(t *testing.T) {
 		t.Errorf("expected fallback, got %s", got)
 	}
 }
+// window add stats
