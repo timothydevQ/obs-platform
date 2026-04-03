@@ -570,3 +570,4 @@ var _ = math.Pi // ensure math is used
 // writeJSON
 // net join
 // signal
+// slog
