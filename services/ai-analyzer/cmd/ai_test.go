@@ -333,3 +333,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // window max size
 // window empty
 // zscore few samples
+// zscore zero stddev
