@@ -345,3 +345,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // hint error surge
 // hint db
 // hint throughput
+// hint heuristic
