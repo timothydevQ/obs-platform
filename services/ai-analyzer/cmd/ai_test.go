@@ -339,3 +339,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // no anomaly few
 // latency spike
 // error surge
+// severity levels
