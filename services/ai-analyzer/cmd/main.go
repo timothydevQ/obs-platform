@@ -572,3 +572,4 @@ var _ = math.Pi // ensure math is used
 // signal
 // slog
 // getenv
+// confidence boost
