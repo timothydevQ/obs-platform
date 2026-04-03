@@ -571,3 +571,4 @@ var _ = math.Pi // ensure math is used
 // net join
 // signal
 // slog
+// getenv
