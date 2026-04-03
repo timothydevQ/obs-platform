@@ -336,3 +336,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // zscore zero stddev
 // zscore variance
 // heuristic record
+// no anomaly few
