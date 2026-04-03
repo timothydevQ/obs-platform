@@ -334,3 +334,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // window empty
 // zscore few samples
 // zscore zero stddev
+// zscore variance
