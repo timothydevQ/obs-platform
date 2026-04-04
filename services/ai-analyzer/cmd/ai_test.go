@@ -365,3 +365,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // hint suggestions count
 // summary severity max
 // summary generated at
+// v2 batch analyze
