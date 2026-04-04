@@ -363,3 +363,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // window slide
 // hint evidence
 // hint suggestions count
+// summary severity max
