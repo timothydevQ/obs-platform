@@ -352,3 +352,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // summarize sort
 // anthropic serial
 // llm no key
+// getenv present
