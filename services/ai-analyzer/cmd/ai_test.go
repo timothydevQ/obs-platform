@@ -362,3 +362,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // zscore grow
 // window slide
 // hint evidence
+// hint suggestions count
