@@ -370,3 +370,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // v2 zscore positive
 // v2 mean calc
 // v2 stddev calc
+// anomaly at exactly 3
