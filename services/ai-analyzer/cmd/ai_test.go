@@ -353,3 +353,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // anthropic serial
 // llm no key
 // getenv present
+// getenv missing
