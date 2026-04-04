@@ -350,3 +350,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // summarize multi
 // summarize top hints
 // summarize sort
+// anthropic serial
