@@ -347,3 +347,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // hint throughput
 // hint heuristic
 // summarize empty
+// summarize multi
