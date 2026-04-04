@@ -329,3 +329,28 @@ func TestGetEnv_Missing(t *testing.T) {
 		t.Errorf("expected fallback, got %s", got)
 	}
 }
+// window add stats
+// window max size
+// window empty
+// zscore few samples
+// zscore zero stddev
+// zscore variance
+// heuristic record
+// no anomaly few
+// latency spike
+// error surge
+// severity levels
+// db slow
+// hint non nil
+// hint error surge
+// hint db
+// hint throughput
+// hint heuristic
+// summarize empty
+// summarize multi
+// summarize top hints
+// summarize sort
+// anthropic serial
+// llm no key
+// getenv present
+// getenv missing

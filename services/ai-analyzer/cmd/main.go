@@ -533,3 +533,35 @@ func main() {
 }
 
 var _ = math.Pi // ensure math is used
+// anthropic types
+// anthropic response
+// anomaly types
+// anomaly struct
+// root cause hint
+// metric window
+// window stats
+// window zscore
+// zero stddev guard
+// window max size
+// heuristic analyzer
+// get window
+// record metric
+// detect anomalies
+// severity levels
+// anomaly type map
+// llm client
+// call claude
+// no key fallback
+// latency hints
+// error hints
+// db hints
+// throughput hints
+// root cause engine
+// analyze
+// incident summary
+// summarize incident
+// analyze handler
+// record handler
+// summarize handler
+// routes
+// server
