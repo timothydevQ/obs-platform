@@ -432,3 +432,4 @@ func main() {
 // build nodes
 // build edges
 // slow edge
+// error edge
