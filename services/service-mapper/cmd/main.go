@@ -475,3 +475,4 @@ func main() {
 // test_extra18
 // test_extra19
 // call count log
+// window default
