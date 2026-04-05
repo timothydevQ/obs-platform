@@ -425,3 +425,4 @@ func main() {
 // graph store
 // store add
 // store get since
+// store count
