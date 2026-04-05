@@ -368,3 +368,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // v2 batch analyze
 // v2 window key
 // v2 zscore positive
+// v2 mean calc
