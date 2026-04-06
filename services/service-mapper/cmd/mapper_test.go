@@ -287,3 +287,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // percentile single
 // percentile p99
 // health perfect
+// health all errors
