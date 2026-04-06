@@ -289,3 +289,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // health perfect
 // health all errors
 // health high latency
+// store add count
