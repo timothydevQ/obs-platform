@@ -462,3 +462,4 @@ func main() {
 // v2 slow threshold
 // v2 error threshold
 // v2 graph summary
+// v2 service count
