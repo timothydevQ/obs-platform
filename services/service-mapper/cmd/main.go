@@ -458,3 +458,4 @@ func main() {
 // slog startup
 // v2 window param
 // v2 node filter
+// v2 edge filter
