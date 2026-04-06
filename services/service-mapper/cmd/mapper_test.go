@@ -284,3 +284,4 @@ func TestGetEnv_Missing(t *testing.T) {
 	}
 }
 // percentile empty
+// percentile single
