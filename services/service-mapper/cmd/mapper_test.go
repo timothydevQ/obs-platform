@@ -293,3 +293,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // store get since
 // store max size
 // builder empty
+// builder single edge
