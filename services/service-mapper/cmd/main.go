@@ -460,3 +460,4 @@ func main() {
 // v2 node filter
 // v2 edge filter
 // v2 slow threshold
+// v2 error threshold
