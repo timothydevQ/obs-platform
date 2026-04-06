@@ -457,3 +457,4 @@ func main() {
 // last seen
 // slog startup
 // v2 window param
+// v2 node filter
