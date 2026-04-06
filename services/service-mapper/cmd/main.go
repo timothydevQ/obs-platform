@@ -461,3 +461,4 @@ func main() {
 // v2 edge filter
 // v2 slow threshold
 // v2 error threshold
+// v2 graph summary
