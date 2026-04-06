@@ -292,3 +292,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // store add count
 // store get since
 // store max size
+// builder empty
