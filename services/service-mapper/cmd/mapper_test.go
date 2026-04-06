@@ -288,3 +288,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // percentile p99
 // health perfect
 // health all errors
+// health high latency
