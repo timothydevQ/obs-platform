@@ -291,3 +291,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // health high latency
 // store add count
 // store get since
+// store max size
