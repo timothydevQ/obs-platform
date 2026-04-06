@@ -440,3 +440,4 @@ func main() {
 // record handler
 // graph handler
 // propagation handler
+// stats handler
