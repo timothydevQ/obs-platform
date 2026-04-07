@@ -297,3 +297,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // builder node calls
 // builder error rate
 // builder slow edge
+// builder error edge
