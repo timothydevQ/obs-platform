@@ -312,3 +312,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // build window filter
 // p95 calc
 // no errors
+// not slow
