@@ -298,3 +298,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // builder error rate
 // builder slow edge
 // builder error edge
+// builder rps
