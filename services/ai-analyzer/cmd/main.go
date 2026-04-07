@@ -592,3 +592,4 @@ var _ = math.Pi // ensure math is used
 // extra21
 // extra22
 // extra23
+// test_extra12
