@@ -299,3 +299,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // builder slow edge
 // builder error edge
 // builder rps
+// propagation single
