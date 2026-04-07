@@ -319,3 +319,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // v2 empty window
 // v2 graph updated at
 // v2 call count
+// v2 error count
