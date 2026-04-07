@@ -316,3 +316,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // update window
 // propagation depth
 // v2 window param
+// v2 empty window
