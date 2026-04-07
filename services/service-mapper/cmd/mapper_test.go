@@ -321,3 +321,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // v2 call count
 // v2 error count
 // window ms stored
+// source exists
