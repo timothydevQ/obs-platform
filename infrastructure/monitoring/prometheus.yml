@@ -41,3 +41,4 @@ scrape_configs:
 # scrape query
 # scrape slo
 # scrape ai
+# scrape mapper
