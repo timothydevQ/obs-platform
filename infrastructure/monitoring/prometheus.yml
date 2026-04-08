@@ -38,3 +38,4 @@ scrape_configs:
 # alertmanager removed
 # alert eval
 # tls skip
+# scrape query
