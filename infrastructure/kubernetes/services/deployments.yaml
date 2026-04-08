@@ -80,3 +80,4 @@ spec:
 # readiness
 # slo deploy
 # rolling
+# pdb
