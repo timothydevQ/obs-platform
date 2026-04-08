@@ -40,3 +40,4 @@ scrape_configs:
 # tls skip
 # scrape query
 # scrape slo
+# scrape ai
