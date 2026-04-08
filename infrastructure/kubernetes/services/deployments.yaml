@@ -78,3 +78,4 @@ spec:
 # resources
 # liveness
 # readiness
+# slo deploy
