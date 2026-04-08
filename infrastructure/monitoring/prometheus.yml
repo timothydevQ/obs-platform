@@ -34,3 +34,4 @@ scrape_configs:
 # scrape collector
 # scrape all
 # honor labels
+# job labels
