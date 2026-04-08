@@ -37,3 +37,4 @@ groups:
           severity: warning
         annotations:
           summary: "Query API P99 latency above 500ms"
+# slo burn
