@@ -39,3 +39,4 @@ scrape_configs:
 # alert eval
 # tls skip
 # scrape query
+# scrape slo
