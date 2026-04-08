@@ -79,3 +79,4 @@ spec:
 # liveness
 # readiness
 # slo deploy
+# rolling
