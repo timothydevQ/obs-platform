@@ -33,3 +33,4 @@ scrape_configs:
 # global
 # scrape collector
 # scrape all
+# honor labels
