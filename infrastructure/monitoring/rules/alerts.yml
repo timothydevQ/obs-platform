@@ -39,3 +39,4 @@ groups:
           summary: "Query API P99 latency above 500ms"
 # slo burn
 # budget exhausted
+# drop rate
