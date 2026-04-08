@@ -129,3 +129,4 @@ services:
 # loki
 # tempo
 # restart
+# healthchecks
