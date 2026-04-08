@@ -48,3 +48,4 @@ groups:
 # inhibit
 # disk
 # p99 slo
+# error budget pct
