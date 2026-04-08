@@ -76,3 +76,4 @@ spec:
               port: 8091
 # collector deploy
 # resources
+# liveness
