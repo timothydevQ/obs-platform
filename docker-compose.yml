@@ -128,3 +128,4 @@ services:
 # jaeger
 # loki
 # tempo
+# restart
