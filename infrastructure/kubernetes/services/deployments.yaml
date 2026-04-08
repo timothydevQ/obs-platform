@@ -74,3 +74,4 @@ spec:
             httpGet:
               path: /healthz/live
               port: 8091
+# collector deploy
