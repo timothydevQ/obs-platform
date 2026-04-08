@@ -16,3 +16,4 @@ storage:
     wal:
       path: /tmp/tempo/wal
 # distributor
+# storage
