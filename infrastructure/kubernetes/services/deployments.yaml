@@ -75,3 +75,4 @@ spec:
               path: /healthz/live
               port: 8091
 # collector deploy
+# resources
