@@ -42,3 +42,4 @@ scrape_configs:
 # scrape slo
 # scrape ai
 # scrape mapper
+# scrape interval
