@@ -77,3 +77,4 @@ spec:
 # collector deploy
 # resources
 # liveness
+# readiness
