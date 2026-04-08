@@ -130,3 +130,4 @@ services:
 # tempo
 # restart
 # healthchecks
+# volumes
