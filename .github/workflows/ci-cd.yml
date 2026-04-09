@@ -151,3 +151,4 @@ jobs:
 # dep cache
 # build context
 # vet
+# build check
