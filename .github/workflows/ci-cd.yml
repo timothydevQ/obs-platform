@@ -143,3 +143,4 @@ jobs:
 # build push
 # gitops
 # commit
+# fail fast false
