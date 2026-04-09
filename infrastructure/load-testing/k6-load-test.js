@@ -51,3 +51,4 @@ export default function () {
 // think time
 // summary
 // batch test
+// log gen
