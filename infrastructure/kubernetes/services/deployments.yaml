@@ -93,3 +93,4 @@ spec:
 # mapper hpa
 # ai resources
 # node affinity
+# env sampling
