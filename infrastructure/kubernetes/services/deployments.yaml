@@ -90,3 +90,4 @@ spec:
 # anti-affinity
 # startup probe
 # env from
+# mapper hpa
