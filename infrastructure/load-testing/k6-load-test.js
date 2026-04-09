@@ -52,3 +52,4 @@ export default function () {
 // summary
 // batch test
 // log gen
+// metric gen
