@@ -133,3 +133,4 @@ jobs:
 # env vars
 # test matrix
 # go setup
+# mod tidy
