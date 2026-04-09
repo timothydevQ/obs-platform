@@ -88,3 +88,4 @@ spec:
 # configmap
 # secrets
 # anti-affinity
+# startup probe
