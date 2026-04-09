@@ -134,3 +134,4 @@ jobs:
 # test matrix
 # go setup
 # mod tidy
+# go test
