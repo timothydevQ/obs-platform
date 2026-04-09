@@ -128,3 +128,7 @@ services:
 # jaeger
 # loki
 # tempo
+# restart
+# healthchecks
+# volumes
+# networks
