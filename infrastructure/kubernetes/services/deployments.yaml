@@ -89,3 +89,4 @@ spec:
 # secrets
 # anti-affinity
 # startup probe
+# env from
