@@ -146,3 +146,4 @@ jobs:
 # fail fast false
 # permissions
 # latest tag
+# workflow dispatch
