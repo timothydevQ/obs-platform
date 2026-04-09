@@ -47,3 +47,4 @@ export default function () {
 // error inject
 // custom metrics
 // sustained
+// spike
