@@ -95,3 +95,4 @@ spec:
 # node affinity
 # env sampling
 # env api key
+# image pull
