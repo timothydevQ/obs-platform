@@ -92,3 +92,4 @@ spec:
 # env from
 # mapper hpa
 # ai resources
+# node affinity
