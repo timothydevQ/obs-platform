@@ -21,3 +21,4 @@ Implement tail-based sampling in the collector service.
 <!-- context -->
 <!-- comparison -->
 <!-- decision -->
+<!-- cost -->
