@@ -24,3 +24,4 @@ Build a unified query API that correlates signals from a single endpoint.
 <!-- correlation -->
 <!-- deployment -->
 <!-- ai layer -->
+<!-- auth -->
