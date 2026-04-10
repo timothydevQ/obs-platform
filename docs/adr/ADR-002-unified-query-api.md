@@ -20,3 +20,4 @@ Build a unified query API that correlates signals from a single endpoint.
 - Query API becomes single point of failure for debugging workflows
 - Must sync data from collector on a push model
 <!-- context -->
+<!-- tradeoffs -->
