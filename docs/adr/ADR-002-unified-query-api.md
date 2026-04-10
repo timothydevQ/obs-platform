@@ -21,3 +21,4 @@ Build a unified query API that correlates signals from a single endpoint.
 - Must sync data from collector on a push model
 <!-- context -->
 <!-- tradeoffs -->
+<!-- correlation -->
