@@ -129,3 +129,17 @@ jobs:
           git add infrastructure/kubernetes/
           git diff --staged --quiet || git commit -m "chore: update image tags to ${{ github.sha }}"
           git push
+# triggers
+# env vars
+# test matrix
+# go setup
+# mod tidy
+# go test
+# coverage
+# security
+# buildx
+# docker login
+# metadata
+# build push
+# gitops
+# commit
