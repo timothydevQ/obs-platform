@@ -19,3 +19,4 @@ A burn rate of 14.4 means you will exhaust a 30-day budget in 50 hours.
 2. Schedule investigation within 4 hours
 3. Monitor burn rate trend every 30 minutes
 <!-- what is -->
+<!-- page response -->
