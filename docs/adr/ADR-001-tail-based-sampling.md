@@ -20,3 +20,4 @@ Implement tail-based sampling in the collector service.
 - 100% capture of errors and slow requests regardless of volume
 <!-- context -->
 <!-- comparison -->
+<!-- decision -->
