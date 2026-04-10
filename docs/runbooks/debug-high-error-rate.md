@@ -22,3 +22,4 @@ curl http://collector:4318/v1/deployments
 
 ## Escalation
 If error rate exceeds 5% for more than 5 minutes and root cause is unknown, escalate to service owner.
+<!-- assess -->
