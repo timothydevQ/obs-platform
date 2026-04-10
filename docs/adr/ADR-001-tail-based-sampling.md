@@ -24,3 +24,4 @@ Implement tail-based sampling in the collector service.
 <!-- cost -->
 <!-- memory -->
 <!-- config -->
+<!-- buffer size -->
