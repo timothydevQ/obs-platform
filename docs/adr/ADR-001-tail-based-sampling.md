@@ -19,3 +19,4 @@ Implement tail-based sampling in the collector service.
 - Requires trace-complete detection heuristic
 - 100% capture of errors and slow requests regardless of volume
 <!-- context -->
+<!-- comparison -->
