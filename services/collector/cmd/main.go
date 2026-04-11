@@ -595,3 +595,4 @@ var _ = math.Pi
 // server
 // graceful shutdown
 // log warn dedup
+// log error
