@@ -26,3 +26,4 @@ Tail sampling buffer retained traces for 60 seconds. During traffic spike, 8x vo
 <!-- followup -->
 <!-- metrics -->
 <!-- detection -->
+<!-- impact -->
