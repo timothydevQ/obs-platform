@@ -497,3 +497,4 @@ func main() {
 // routes
 // server
 // log burn
+// writeJSON
