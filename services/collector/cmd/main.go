@@ -596,3 +596,4 @@ var _ = math.Pi
 // graceful shutdown
 // log warn dedup
 // log error
+// writeJSON
