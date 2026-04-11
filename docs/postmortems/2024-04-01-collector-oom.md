@@ -19,3 +19,6 @@ Tail sampling buffer retained traces for 60 seconds. During traffic spike, 8x vo
 - Add memory pressure metric to collector (done)
 - Add HPA based on memory utilization (in progress)
 - Load test tail sampler under 10x normal volume (scheduled)
+<!-- timeline -->
+<!-- root cause -->
+<!-- actions -->

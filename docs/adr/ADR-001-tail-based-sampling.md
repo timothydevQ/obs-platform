@@ -18,3 +18,7 @@ Implement tail-based sampling in the collector service.
 - Memory overhead for trace buffering (60s window)
 - Requires trace-complete detection heuristic
 - 100% capture of errors and slow requests regardless of volume
+<!-- context -->
+<!-- comparison -->
+<!-- decision -->
+<!-- cost -->
