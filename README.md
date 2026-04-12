@@ -191,3 +191,4 @@ Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger 
 <!-- badges -->
 <!-- final -->
 <!-- ai section -->
+<!-- deployment corr -->
