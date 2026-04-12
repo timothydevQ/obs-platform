@@ -195,3 +195,4 @@ Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger 
 <!-- sampling -->
 <!-- slo burns -->
 <!-- service map -->
+<!-- key features -->
