@@ -135,3 +135,4 @@ services:
 # fixed restart dup
 # version removed
 # grafana env
+# jaeger otlp
