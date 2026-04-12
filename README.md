@@ -201,3 +201,4 @@ Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger 
 <!-- contributing -->
 <!-- license -->
 <!-- docker quick -->
+<!-- k8s -->
