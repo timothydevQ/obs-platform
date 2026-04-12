@@ -207,3 +207,4 @@ Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger 
 <!-- slo examples -->
 <!-- anomaly example -->
 <!-- graph example -->
+<!-- deployment example -->
