@@ -464,3 +464,68 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// slo type
+// slo struct
+// slo status
+// burn rate alert
+// sli point
+// slo store
+// add slo
+// get slo
+// list slos
+// record point
+// get points
+// add alert
+// get alerts
+// window duration
+// compliance error rate
+// compliance latency
+// compliance throughput
+// burn rate calc
+// evaluate slo
+// page alert
+// ticket alert
+// error budget
+// create slo handler
+// list slos handler
+// status handler
+// all statuses
+// sli handler
+// alerts handler
+// metrics endpoint
+// health handlers
+// routes
+// server
+// log burn
+// writeJSON
+// net join
+// slog
+// signal
+// getenv
+// budget floor
+// budget ceil
+// no data assume
+// alert log
+// throughput check
+// slog startup
+// v2 window map
+// v2 multi window eval
+// v2 slo update
+// v2 slo delete
+// v2 filter tenant
+// v2 alert limit
+// v2 point batch
+// v2 point ts
+// extra12
+// extra13
+// extra14
+// extra15
+// extra16
+// extra17
+// test_extra8
+// test_extra9
+// test_extra10
+// test_extra11
+// slo name
+// status severity
+// point service

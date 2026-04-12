@@ -301,3 +301,47 @@ func TestStore_Stats(t *testing.T) {
 	if stats["metrics"] != 1 { t.Error("expected 1 metric") }
 	if stats["logs"] != 1 { t.Error("expected 1 log") }
 }
+// percentile empty
+// percentile single
+// percentile p50
+// percentile p99
+// get trace found
+// get trace not found
+// trace logs
+// trace error flag
+// trace services dedup
+// search all
+// search service
+// search duration
+// search errors
+// search limit
+// latency empty
+// latency root only
+// latency p99
+// service map empty
+// service map single
+// service map edges
+// health score
+// deployment no anomaly
+// store stats
+// store max span
+// store max metric
+// latency all services
+// search sorted
+// ingest spans
+// trace duration
+// trace no logs
+// search empty
+// latency by service
+// latency all
+// service map edges multi
+// store add metrics
+// store add logs
+// store add deployment
+// v2 service filter
+// v2 multiple services
+// v2 trace ids
+// v2 nil check
+// v2 empty search
+// search sorted verify
+// trace multi log

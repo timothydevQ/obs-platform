@@ -553,3 +553,82 @@ func main() {
 
 // Ensure math is used
 var _ = math.Pi
+// scaffold
+// span domain
+// metric domain
+// log domain
+// span log
+// tail sampler struct
+// trace buffer
+// sampler new
+// should keep error
+// should keep slow
+// should keep 5xx
+// probabilistic sample
+// add span
+// flush trace
+// flush expired
+// sampler stats
+// storage struct
+// store spans
+// store metric
+// store log
+// get by trace
+// get recent
+// get metrics
+// get logs by trace
+// storage stats
+// deployment domain
+// deployment tracker
+// collector stats
+// handler struct
+// receive traces handler
+// receive metrics handler
+// receive logs handler
+// deployment handler
+// stats handler
+// health handlers
+// metrics endpoint
+// newid
+// method handler
+// routes
+// server
+// graceful shutdown
+// log warn dedup
+// log error
+// writeJSON
+// net join
+// signal notify
+// slog init
+// auto uuid
+// auto span id
+// group trace
+// batch flush
+// bytes counter
+// span log type
+// getenv
+// sampling decision
+// slog startup
+// v2 sampling
+// v2 flush timer
+// v2 max buffer
+// v2 batch group
+// v2 parent check
+// v2 service required
+// v2 trace required
+// v2 cors
+// v2 request id
+// v2 compress
+// extra0
+// extra1
+// extra2
+// extra3
+// extra4
+// extra5
+// test_extra0
+// test_extra1
+// test_extra2
+// test_extra3
+// otel compat
+// batch size log
+// flush on stop

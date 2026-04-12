@@ -122,3 +122,40 @@ services:
     ports:
       - "3200:3200"
     networks: [obs]
+# init
+# prometheus
+# grafana
+# jaeger
+# loki
+# tempo
+# restart
+# healthchecks
+# volumes
+# networks
+# fixed restart dup
+# version removed
+# grafana env
+# jaeger otlp
+# loki config
+# tempo config
+# patch 03:30
+# patch 40:55
+# patch 36:20
+# patch 13:46
+# patch 51:11
+# patch 28:36
+# patch 46:02
+# patch 23:27
+# patch 00:52
+# patch 20:18
+# patch 32:43
+# patch 45:09
+# patch 57:34
+# patch 10:00
+# patch 22:25
+# patch 34:51
+# patch 47:16
+# patch 59:41
+# patch 12:07
+# patch 24:32
+# platform label

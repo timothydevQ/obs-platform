@@ -30,3 +30,16 @@ scrape_configs:
     static_configs:
       - targets: ["service-mapper:8093"]
     metrics_path: /metrics
+# global
+# scrape collector
+# scrape all
+# honor labels
+# job labels
+# alertmanager removed
+# alert eval
+# tls skip
+# scrape query
+# scrape slo
+# scrape ai
+# scrape mapper
+# scrape interval

@@ -666,3 +666,81 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// scaffold
+// span domain
+// metric point
+// log entry
+// deployment domain
+// service edge
+// service node
+// service map type
+// store struct
+// add spans
+// add metrics
+// add logs
+// add deployment
+// store stats
+// query svc
+// trace view
+// get trace
+// trace has error
+// trace services
+// search result
+// search traces
+// filter service
+// filter errors
+// filter duration
+// search sort
+// search limit
+// latency stats
+// percentile func
+// get latency
+// latency window
+// build service map
+// edge detection
+// health score
+// deployment correlation
+// anomaly detection
+// trace handler
+// search handler
+// latency handler
+// service map handler
+// ingest handler
+// health handler
+// routes
+// server
+// log trace
+// writeJSON
+// net join
+// slog
+// signal
+// getenv
+// span by id
+// error propagation
+// deployment store
+// pre window
+// post window
+// error rate post
+// 20pct threshold
+// slog startup
+// v2 cache
+// v2 cache ttl
+// v2 operation
+// v2 service list
+// v2 error count
+// v2 trace count
+// v2 window param
+// v2 default window
+// extra6
+// extra7
+// extra8
+// extra9
+// extra10
+// extra11
+// test_extra4
+// test_extra5
+// test_extra6
+// test_extra7
+// sorted services
+// trace count
+// edge error pct

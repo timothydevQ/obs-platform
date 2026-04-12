@@ -18,3 +18,10 @@ A burn rate of 14.4 means you will exhaust a 30-day budget in 50 hours.
 1. Create tracking ticket with SLO ID and current burn rate
 2. Schedule investigation within 4 hours
 3. Monitor burn rate trend every 30 minutes
+<!-- what is -->
+<!-- page response -->
+<!-- ticket response -->
+<!-- rollback -->
+<!-- examples -->
+<!-- monitor -->
+<!-- post -->

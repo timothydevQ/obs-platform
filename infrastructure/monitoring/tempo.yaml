@@ -15,3 +15,5 @@ storage:
       path: /tmp/tempo/blocks
     wal:
       path: /tmp/tempo/wal
+# distributor
+# storage

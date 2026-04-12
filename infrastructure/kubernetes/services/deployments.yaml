@@ -74,3 +74,26 @@ spec:
             httpGet:
               path: /healthz/live
               port: 8091
+# collector deploy
+# resources
+# liveness
+# readiness
+# slo deploy
+# rolling
+# pdb
+# hpa
+# query deploy
+# ai deploy
+# mapper deploy
+# configmap
+# secrets
+# anti-affinity
+# startup probe
+# env from
+# mapper hpa
+# ai resources
+# node affinity
+# env sampling
+# env api key
+# image pull
+# termination

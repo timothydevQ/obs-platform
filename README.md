@@ -176,3 +176,60 @@ k6 run infrastructure/load-testing/k6-load-test.js
 ## Tech Stack
 
 Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger · Loki · Tempo · ArgoCD
+<!-- init -->
+<!-- overview -->
+<!-- arch -->
+<!-- services -->
+<!-- quickstart -->
+<!-- stack -->
+<!-- slo -->
+<!-- design -->
+<!-- prereqs -->
+<!-- tests -->
+<!-- load test -->
+<!-- adrs -->
+<!-- badges -->
+<!-- final -->
+<!-- ai section -->
+<!-- deployment corr -->
+<!-- sampling -->
+<!-- slo burns -->
+<!-- service map -->
+<!-- key features -->
+<!-- internals -->
+<!-- roadmap -->
+<!-- contributing -->
+<!-- license -->
+<!-- docker quick -->
+<!-- k8s -->
+<!-- env vars -->
+<!-- interview notes -->
+<!-- slo examples -->
+<!-- anomaly example -->
+<!-- graph example -->
+<!-- deployment example -->
+<!-- patch 10:58 -->
+<!-- patch 43:23 -->
+<!-- patch 55:49 -->
+<!-- patch 08:14 -->
+<!-- patch 20:40 -->
+<!-- patch 33:05 -->
+<!-- patch 45:30 -->
+<!-- patch 57:56 -->
+<!-- patch 10:21 -->
+<!-- patch 22:46 -->
+<!-- patch 35:12 -->
+<!-- patch 47:37 -->
+<!-- patch 00:02 -->
+<!-- patch 12:28 -->
+<!-- patch 24:53 -->
+<!-- patch 37:18 -->
+<!-- patch 49:44 -->
+<!-- patch 02:09 -->
+<!-- patch 14:34 -->
+<!-- patch 27:00 -->
+<!-- patch 39:25 -->
+<!-- patch 51:50 -->
+<!-- patch 04:16 -->
+<!-- tech stack -->
+<!-- port table -->

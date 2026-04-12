@@ -37,3 +37,16 @@ groups:
           severity: warning
         annotations:
           summary: "Query API P99 latency above 500ms"
+# slo burn
+# budget exhausted
+# drop rate
+# latency
+# for duration
+# pod crash
+# memory
+# availability
+# inhibit
+# disk
+# p99 slo
+# error budget pct
+# collector up

@@ -41,3 +41,15 @@ export default function () {
   check(res, { "status is 202": (r) => r.status === 202 });
   sleep(0.1);
 }
+// thresholds
+// ramp up
+// trace gen
+// error inject
+// custom metrics
+// sustained
+// spike
+// think time
+// summary
+// batch test
+// log gen
+// metric gen
