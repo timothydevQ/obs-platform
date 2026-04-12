@@ -498,3 +498,4 @@ func main() {
 // server
 // log burn
 // writeJSON
+// net join
