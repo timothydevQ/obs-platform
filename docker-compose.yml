@@ -137,3 +137,4 @@ services:
 # grafana env
 # jaeger otlp
 # loki config
+# tempo config
