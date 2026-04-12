@@ -231,3 +231,4 @@ Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger 
 <!-- patch 39:25 -->
 <!-- patch 51:50 -->
 <!-- patch 04:16 -->
+<!-- tech stack -->
