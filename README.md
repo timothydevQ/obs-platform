@@ -204,3 +204,4 @@ Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger 
 <!-- k8s -->
 <!-- env vars -->
 <!-- interview notes -->
+<!-- slo examples -->
