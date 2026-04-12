@@ -496,3 +496,6 @@ func main() {
 // health handlers
 // routes
 // server
+// log burn
+// writeJSON
+// net join

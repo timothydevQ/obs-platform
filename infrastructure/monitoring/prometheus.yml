@@ -35,3 +35,4 @@ scrape_configs:
 # scrape all
 # honor labels
 # job labels
+# alertmanager removed

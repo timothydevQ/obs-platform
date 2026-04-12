@@ -565,3 +565,7 @@ var _ = math.Pi // ensure math is used
 // summarize handler
 // routes
 // server
+// log anomaly
+// log llm
+// writeJSON
+// net join
