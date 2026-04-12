@@ -188,3 +188,4 @@ Go · Docker · Kubernetes · GitHub Actions · Prometheus · Grafana · Jaeger 
 <!-- tests -->
 <!-- load test -->
 <!-- adrs -->
+<!-- badges -->
