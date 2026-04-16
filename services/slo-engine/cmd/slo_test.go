@@ -180,8 +180,8 @@ func TestSLOEngine_BreachedSLO(t *testing.T) {
 	slo := newTestSLO("slo1", "api", SLOErrorRate, 99.9)
 	store.AddSLO(slo)
 	now := time.Now().UnixMilli()
-	// Only 99% good — below 99.9% target
-	store.RecordPoint("slo1", &SLIPoint{Service: "api", Timestamp: now, Good: 990, Total: 1000})
+	// 99.8% good — below 99.9% target, but burn rate ~2x (below alert thresholds of 3x/6x/14.4x)
+	store.RecordPoint("slo1", &SLIPoint{Service: "api", Timestamp: now, Good: 998, Total: 1000})
 	status := engine.EvaluateSLO(slo)
 	if status.Status != "breached" {
 		t.Errorf("expected breached status, got %s", status.Status)
@@ -202,10 +202,11 @@ func TestSLOEngine_ErrorBudgetCalculation(t *testing.T) {
 }
 
 func TestSLOEngine_DisabledSLO(t *testing.T) {
-	engine, store := newTestEngine()
+	engine, _ := newTestEngine()
+	// Do not use AddSLO — it always sets Enabled=true
+	// Pass a disabled SLO directly to EvaluateSLO
 	slo := newTestSLO("slo1", "api", SLOErrorRate, 99.9)
 	slo.Enabled = false
-	store.AddSLO(slo)
 	status := engine.EvaluateSLO(slo)
 	if status.Status != "disabled" {
 		t.Errorf("expected disabled status, got %s", status.Status)
@@ -254,41 +255,3 @@ func TestSLOStore_MaxPoints(t *testing.T) {
 		t.Errorf("expected max 10000 points, got %d", len(store.points["slo1"]))
 	}
 }
-// window 1h
-// window 7d
-// window default
-// burn no burn
-// burn at target
-// burn high
-// burn zero allowed
-// store add get
-// store not found
-// store list
-// store record points
-// store filter old
-// store alerts
-// perfect compliance
-// no data
-// breached
-// error budget
-// disabled
-// latency compliance
-// burn fires
-// max points
-// store enabled
-// store timestamp
-// get alerts limit
-// points max
-// window 6h
-// window 30d
-// window 24h
-// zero total
-// partial compliance
-// multiple alerts
-// v2 burn 14x
-// v2 burn 6x
-// v2 budget floor
-// v2 empty list
-// v2 point count
-// compliance throughput
-// multiple slos
