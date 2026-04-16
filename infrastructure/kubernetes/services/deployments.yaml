@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: collector
-          image: yourorg/collector:latest
+          image: ghcr.io/timothydevQ/obs-platform/collector:c2b0178
           ports:
             - containerPort: 4318
           env:
@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
         - name: slo-engine
-          image: yourorg/slo-engine:latest
+          image: ghcr.io/timothydevQ/obs-platform/slo-engine:c2b0178
           ports:
             - containerPort: 8091
           resources:
