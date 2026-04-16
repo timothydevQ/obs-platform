@@ -1,0 +1,124 @@
+networks:
+  obs:
+    driver: bridge
+
+volumes:
+  prometheus-data:
+  grafana-data:
+  tempo-data:
+  loki-data:
+
+services:
+  # ── Observability Platform Services ─────────────────────────────────────────
+  collector:
+    build:
+      context: ./services/collector
+      dockerfile: Dockerfile
+    environment:
+      HTTP_PORT: "4318"
+      SAMPLE_RATE: "0.1"
+    ports:
+      - "4318:4318"
+    networks: [obs]
+    restart: unless-stopped
+
+  query-api:
+    build:
+      context: ./services/query-api
+      dockerfile: Dockerfile
+    environment:
+      HTTP_PORT: "8090"
+      COLLECTOR_URL: http://collector:4318
+    ports:
+      - "8090:8090"
+    depends_on:
+      collector: { condition: service_started }
+    networks: [obs]
+    restart: unless-stopped
+
+  slo-engine:
+    build:
+      context: ./services/slo-engine
+      dockerfile: Dockerfile
+    environment:
+      HTTP_PORT: "8091"
+    ports:
+      - "8091:8091"
+    networks: [obs]
+    restart: unless-stopped
+
+  ai-analyzer:
+    build:
+      context: ./services/ai-analyzer
+      dockerfile: Dockerfile
+    environment:
+      HTTP_PORT: "8092"
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    ports:
+      - "8092:8092"
+    networks: [obs]
+    restart: unless-stopped
+
+  service-mapper:
+    build:
+      context: ./services/service-mapper
+      dockerfile: Dockerfile
+    environment:
+      HTTP_PORT: "8093"
+    ports:
+      - "8093:8093"
+    networks: [obs]
+    restart: unless-stopped
+
+  # ── Observability Backends ───────────────────────────────────────────────────
+  prometheus:
+    image: prom/prometheus:v2.51.0
+    volumes:
+      - ./infrastructure/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./infrastructure/monitoring/rules:/etc/prometheus/rules
+      - prometheus-data:/prometheus
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.path=/prometheus"
+      - "--web.enable-lifecycle"
+    ports:
+      - "9090:9090"
+    networks: [obs]
+
+  grafana:
+    image: grafana/grafana:10.4.0
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_FEATURE_TOGGLES_ENABLE: traceToMetrics
+    volumes:
+      - grafana-data:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    depends_on: [prometheus]
+    networks: [obs]
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.56
+    environment:
+      COLLECTOR_OTLP_ENABLED: "true"
+    ports:
+      - "16686:16686"
+      - "14268:14268"
+    networks: [obs]
+
+  loki:
+    image: grafana/loki:2.9.0
+    command: -config.file=/etc/loki/local-config.yaml
+    ports:
+      - "3100:3100"
+    networks: [obs]
+
+  tempo:
+    image: grafana/tempo:2.4.0
+    command: ["-config.file=/etc/tempo.yaml"]
+    volumes:
+      - ./infrastructure/monitoring/tempo.yaml:/etc/tempo.yaml
+      - tempo-data:/tmp/tempo
+    ports:
+      - "3200:3200"
+    networks: [obs]

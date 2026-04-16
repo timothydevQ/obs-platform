@@ -1,0 +1,76 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: collector
+  namespace: obs-platform
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: collector
+  template:
+    metadata:
+      labels:
+        app: collector
+    spec:
+      containers:
+        - name: collector
+          image: yourorg/collector:latest
+          ports:
+            - containerPort: 4318
+          env:
+            - name: HTTP_PORT
+              value: "4318"
+            - name: SAMPLE_RATE
+              value: "0.1"
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi
+          livenessProbe:
+            httpGet:
+              path: /healthz/live
+              port: 4318
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /healthz/ready
+              port: 4318
+            initialDelaySeconds: 3
+            periodSeconds: 5
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: slo-engine
+  namespace: obs-platform
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: slo-engine
+  template:
+    metadata:
+      labels:
+        app: slo-engine
+    spec:
+      containers:
+        - name: slo-engine
+          image: yourorg/slo-engine:latest
+          ports:
+            - containerPort: 8091
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 200m
+              memory: 256Mi
+          livenessProbe:
+            httpGet:
+              path: /healthz/live
+              port: 8091

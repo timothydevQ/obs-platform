@@ -1,0 +1,39 @@
+groups:
+  - name: slo_alerts
+    rules:
+      - alert: SLOBudgetBurnRateHigh
+        expr: slo_burn_rate_1h > 14.4
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "SLO error budget burning too fast"
+          description: "SLO {{ $labels.slo }} burn rate {{ $value }}x exceeds threshold"
+
+      - alert: SLOBudgetAlmostExhausted
+        expr: slo_error_budget_remaining < 10
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "SLO error budget nearly exhausted"
+
+  - name: collector_alerts
+    rules:
+      - alert: HighSamplingDropRate
+        expr: rate(collector_spans_dropped_total[5m]) > 1000
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Collector dropping too many spans"
+
+  - name: latency_alerts
+    rules:
+      - alert: HighP99Latency
+        expr: query_api_p99_ms > 500
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Query API P99 latency above 500ms"

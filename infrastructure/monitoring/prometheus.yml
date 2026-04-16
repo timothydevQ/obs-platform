@@ -1,0 +1,32 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  - "rules/*.yml"
+
+scrape_configs:
+  - job_name: "collector"
+    static_configs:
+      - targets: ["collector:4318"]
+    metrics_path: /metrics
+
+  - job_name: "query-api"
+    static_configs:
+      - targets: ["query-api:8090"]
+    metrics_path: /metrics
+
+  - job_name: "slo-engine"
+    static_configs:
+      - targets: ["slo-engine:8091"]
+    metrics_path: /metrics
+
+  - job_name: "ai-analyzer"
+    static_configs:
+      - targets: ["ai-analyzer:8092"]
+    metrics_path: /metrics
+
+  - job_name: "service-mapper"
+    static_configs:
+      - targets: ["service-mapper:8093"]
+    metrics_path: /metrics

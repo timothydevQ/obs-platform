@@ -1,0 +1,40 @@
+# Binaries
+/bin/
+*/bin/
+*.exe
+*.out
+
+# Test output
+coverage.out
+*.coverprofile
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker volumes
+data/
+volumes/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go workspace cache
+go.work.sum
+
+# k6 results
+k6-results/
+summary.json

@@ -1,0 +1,9 @@
+go 1.22
+
+use (
+	./services/collector
+	./services/query-api
+	./services/slo-engine
+	./services/ai-analyzer
+	./services/service-mapper
+)
